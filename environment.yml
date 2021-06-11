@@ -14,13 +14,13 @@ dependencies:
   - ipyfastscape=0.2.0
   - jupyterlab=3
   - ipykernel
-  - ipython
+  - ipython=7.10
   - matplotlib-base
   - graphviz
   - python-graphviz
   - numba
   - ipywidgets
-  - hvplot
+  - hvplot=0.7.0
   - zarr
   - tqdm
   - pip
