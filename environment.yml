@@ -1,0 +1,32 @@
+name: crc-1211-short-course
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - dask
+  - dask-labextension
+  - xarray
+  - xarray-simlab=0.5.0
+  - xarray-spatial
+  - netcdf4
+  - fastscapelib-f2py=2.8.2
+  - fastscape=0.1.0beta3
+  - orographic_precipitation
+  - ipyfastscape=0.2.0
+  - jupyterlab=3
+  - notebook
+  - ipykernel
+  - ipython
+  - matplotlib-base
+  - graphviz
+  - python-graphviz
+  - numba
+  - ipywidgets
+  - hvplot
+  - datashader
+  - zarr
+  - tqdm
+  - nodejs
+  - pip
