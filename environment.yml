@@ -23,4 +23,5 @@ dependencies:
   - hvplot=0.7.0
   - zarr
   - tqdm
+  - scipy
   - pip
