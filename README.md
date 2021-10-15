@@ -114,6 +114,21 @@ $ conda activate crc-1211-short-course
 Note: you could use [mamba](https://github.com/mamba-org/mamba) instead of
 `conda`. `mamba` is a faster alternative to `conda`.
 
+Note: If you have a new Mac with an M1 processor. FastScape has not been ported 
+o this architecture yet. So you will need to install the intel version. This means that you
+need to install the intel version of all other necessary packages in your environment.
+For this, you need to change the command:
+
+```bash
+$ conda env create -f environment.yml
+```
+
+to:
+
+```bash
+$ CONDA_SUBDIR=osx-64 conda env create -f environment.yml
+```
+
 Finally run the command below to start the Jupyterlab application. It should
 open a new tab in your browser.
 
